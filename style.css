@@ -1,0 +1,50 @@
+*{
+	font-family: Arial;
+}
+header{
+	background:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.5)), url("apj.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+ul{
+	text-align: center;
+}
+ul li{
+
+	margin-top: 25px;
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 15px;
+	border: 1px solid white;
+	transition:0.5s ease ;
+}
+ul li a:hover{
+	background-color: white;
+	color: red;
+}
+#container{
+	width: 1000px;
+}
+.title{
+	width: 450px;
+	float: left;
+}
+.title h1{
+	color: lightblue;
+	font-style: century gothic;
+	padding: 5px 20px;
+}
+.title h4{
+	text-decoration: none;
+	color: lightgray;
+	padding: 5px 20px;
+	width: 450px;
+}
+.video{
+	float: right;
+    margin-top: 5%;
+}
